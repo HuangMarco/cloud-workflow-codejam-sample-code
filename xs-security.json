@@ -1,0 +1,16 @@
+{
+	"xsappname": "0af9cd70-e420-11e9-869e-e4a7a0e638df",
+	"tenant-mode": "dedicated",
+	"description": "Security profile of called application",
+	"scopes": [{
+		"name": "uaa.user",
+		"description": "UAA"
+	}],
+	"role-templates": [{
+		"name": "Token_Exchange",
+		"description": "UAA",
+		"scope-references": [
+			"uaa.user"
+		]
+	}]
+}
